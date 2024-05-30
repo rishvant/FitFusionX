@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.list .item{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.item h3{
+    text-align: center;
+}
+
+.item ul a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+footer .content{
+    width: 20%;
+}
+
+footer .para p{
+    margin-top: -20%;
+    text-align: start;
+}
+
+footer .para h1{
+    text-align: start;
+}
